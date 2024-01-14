@@ -5,36 +5,36 @@ import SingleTestimonial from "./SingleTestimonial";
 const testimonialData: Testimonial[] = [
   {
     id: 1,
-    name: "Musharof Chy",
-    designation: "Founder @TailGrids",
+    name: "Mohd Zailani Mohamed Zain",
+    designation: "Manager, System & Operations Control KFH Malaysia",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/testimonials/auth-01.png",
+      "Able to automate two of our business processes has given us another tool for improving and ensuring that our operations run smoothly with increased reliability and accuracy.",
+    image: "/images/testimonials/KFH-Logo.png",
     star: 5,
   },
   {
     id: 2,
-    name: "Devid Weilium",
-    designation: "Founder @UIdeck",
+    name: "WILLIAM HENG",
+    designation: "Head, FinTech, Ecosystem & Innovation UOB Malaysia",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/testimonials/auth-02.png",
+      "The RPA offering by OrangeFIN has helped our SME customers reduce repetitive tasks and improve overall business efficiency.",
+    image: "/images/testimonials/UOB_logo.png",
     star: 5,
   },
   {
     id: 3,
-    name: "Lethium Frenci",
+    name: "CHRISTIAN LIADINATA",
     designation: "Founder @Lineicons",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/testimonials/auth-03.png",
+      "It took 45 minutes to send out the monthly Statement of Accounts, as compared to 5 days when done manually.",
+    image: "/images/testimonials/Swagelok-Logo.png",
     star: 5,
   },
 ];
 
 const Testimonials = () => {
   return (
-    <section className="dark:bg-bg-color-dark bg-gray-light relative z-10 py-16 md:py-20 lg:py-28">
+    <section className="dark:bg-bg-color-dark bg-white relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
           title="What Our Users Says"
@@ -85,8 +85,8 @@ const Testimonials = () => {
               y2="459.865"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stopColor="#4A6CF7" />
-              <stop offset="1" stopColor="#4A6CF7" stopOpacity="0" />
+              <stop stopColor="#FF5A00" />
+              <stop offset="1" stopColor="#FF5A00" stopOpacity="0" />
             </linearGradient>
             <linearGradient
               id="paint1_linear_83:2"
@@ -96,8 +96,8 @@ const Testimonials = () => {
               y2="675.565"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stopColor="#4A6CF7" />
-              <stop offset="1" stopColor="#4A6CF7" stopOpacity="0" />
+              <stop stopColor="#FF5A00" />
+              <stop offset="1" stopColor="#FF5A00" stopOpacity="0" />
             </linearGradient>
           </defs>
         </svg>
@@ -137,8 +137,8 @@ const Testimonials = () => {
               y2="8.15715"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stopColor="#4A6CF7" stopOpacity="0" />
-              <stop offset="1" stopColor="#4A6CF7" />
+              <stop stopColor="#FF5A00" stopOpacity="0" />
+              <stop offset="1" stopColor="#FF5A00" />
             </linearGradient>
             <linearGradient
               id="paint1_linear_72:302"
@@ -148,8 +148,8 @@ const Testimonials = () => {
               y2="-2.84285"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stopColor="#4A6CF7" stopOpacity="0" />
-              <stop offset="1" stopColor="#4A6CF7" />
+              <stop stopColor="#FF5A00" stopOpacity="0" />
+              <stop offset="1" stopColor="#FF5A00" />
             </linearGradient>
             <linearGradient
               id="paint2_linear_72:302"
@@ -159,8 +159,8 @@ const Testimonials = () => {
               y2="19.1572"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stopColor="#4A6CF7" stopOpacity="0" />
-              <stop offset="1" stopColor="#4A6CF7" />
+              <stop stopColor="#FF5A00" stopOpacity="0" />
+              <stop offset="1" stopColor="#FF5A00" />
             </linearGradient>
             <linearGradient
               id="paint3_linear_72:302"
@@ -170,8 +170,8 @@ const Testimonials = () => {
               y2="31.1572"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stopColor="#4A6CF7" stopOpacity="0" />
-              <stop offset="1" stopColor="#4A6CF7" />
+              <stop stopColor="#FF5A00" stopOpacity="0" />
+              <stop offset="1" stopColor="#FF5A00" />
             </linearGradient>
           </defs>
         </svg>
