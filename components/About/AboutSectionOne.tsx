@@ -24,8 +24,8 @@ const AboutSectionOne = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="Crafted for Startup, SaaS and Business Sites."
-                paragraph="The main ‘thrust’ is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel discussions and roundtables."
+                title="Get to know us at InsiteMY"
+                paragraph="A Glimpse into our history, our values, and our dedication for innovation"
                 mb="44px"
               />
 
@@ -34,16 +34,22 @@ const AboutSectionOne = () => {
                 data-wow-delay=".15s"
               >
                 <div className="mx-[-12px] flex flex-wrap">
-                  <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Premium quality" />
-                    <List text="Tailwind CSS" />
-                    <List text="Use for lifetime" />
+                  <div className="w-full px-3 sm:w-1/2 lg:w-full ">
+                  <h3 className="mb-5 text-2xl font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight md:text-2xl md:leading-tight">
+                  Company Overview
+                  </h3>
+                  <p className="dark:text-body-color-dark mb-12 text-base !leading-relaxed text-body-color sm:text-lg md:text-xl">
+                  InsiteMY Group of Companies (InsiteMY) was established in January 2000. In all of our years in the Banking and Financial sector, we have successfully expanded our client base to include Malaysia, Philippines, Singapore, Thailand, Bangladesh, Pakistan, Indonesia and Myanmar. Our solution includes cheque clearing, enterprise payment straight-through processing, regulatory reporting, and customer acquisition products.
+
+                  Together with our customers, we have processed millions of payment transactions in billions of Ringgit Malaysia and other currencies throughout this decade.
+
+                  The group has registered 2 companies with the Malaysia Digital Economy Corporation (MDEC), namely Insite MY Systems Sdn Bhd (IMS) and Insite MY Innovations Sdn Bhd (IMI). IMS attained MSC status in 2005 and focuses mainly on payment systems. IMI obtained pioneer status in 2012 and focuses mainly on regulatory reporting and customer acquisition.
+
+                  Besides MDEC, we are also a company under registration with the Ministry of Finance, Malaysia.                  </p>
                   </div>
 
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Next.js" />
-                    <List text="Rich documentation" />
-                    <List text="Developer friendly" />
+
                   </div>
                 </div>
               </div>

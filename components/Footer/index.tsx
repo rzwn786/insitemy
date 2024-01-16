@@ -150,7 +150,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
+          <div className="h-px w-full bg-gradient-to-r from-transparent via-[#ff5a00] to-transparent dark:via-[#959CB183]"></div>
           <div className="py-8">
             <p className="text-center text-base text-body-color dark:text-white">
             COPYRIGHT © 2023 INSITE MY.COM SDN BHD (504609-A) . ALL RIGHTS RESERVED
@@ -165,7 +165,7 @@ const Footer = () => {
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
           >
-            <circle opacity="0.8" cx="49.5" cy="49.5" r="49.5" fill="#959CB1" />
+            <circle opacity="0.8" cx="49.5" cy="49.5" r="49.5" fill="#ff5a00" />
             <mask
               id="mask0_94:899"
               style={{ maskType: "alpha" }}
@@ -180,7 +180,7 @@ const Footer = () => {
                 cx="49.5"
                 cy="49.5"
                 r="49.5"
-                fill="#4A6CF7"
+                fill="#ff5a00"
               />
             </mask>
             <g mask="url(#mask0_94:899)">

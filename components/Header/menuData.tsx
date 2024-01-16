@@ -24,18 +24,6 @@ const menuData: Menu[] = [
         path: "/contact",
         newTab: false,
       },
-      {
-        id: 23,
-        title: "Blog Grid Page",
-        path: "/blog",
-        newTab: false,
-      },
-      {
-        id: 24,
-        title: "Blog Sidebar Page",
-        path: "/blog-sidebar",
-        newTab: false,
-      },
     ],
   },
   {
@@ -45,26 +33,26 @@ const menuData: Menu[] = [
     submenu: [
       {
         id: 31,
-        title: "About Page",
-        path: "/about",
+        title: "INReport",
+        path: "/inreport",
         newTab: false,
       },
       {
         id: 32,
-        title: "Contact Page",
-        path: "/contact",
+        title: "InArk",
+        path: "/inark",
         newTab: false,
       },
       {
         id: 33,
-        title: "Blog Grid Page",
-        path: "/blog",
+        title: "INCHEQS",
+        path: "/incheqs",
         newTab: false,
       },
       {
         id: 34,
-        title: "Blog Sidebar Page",
-        path: "/blog-sidebar",
+        title: "InGateway",
+        path: "/ingateway",
         newTab: false,
       },
     ],
