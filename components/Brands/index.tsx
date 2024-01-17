@@ -6,16 +6,12 @@ import SectionTitle from "../Common/SectionTitle";
 const Brands = () => {
   return (
     <section className="pt-16">
-        <SectionTitle
-          title="Our Partner"
-          paragraph=" "
-          center
-        />
+      <SectionTitle title="Our Partner" paragraph=" " center />
       <div className="container">
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4">
             <div
-              className="wow fadeInUp bg-[#f7e6d0] dark:bg-gray-dark flex flex-wrap items-center justify-center rounded-sm px-8 py-8 sm:px-10 md:px-[50px] md:py-[40px] xl:p-[50px] 2xl:px-[70px] 2xl:py-[60px]"
+              className="wow fadeInUp flex flex-wrap items-center justify-center rounded-sm bg-[#f7e6d0] px-8 py-8 dark:bg-gray-dark sm:px-10 md:px-[50px] md:py-[40px] xl:p-[50px] 2xl:px-[70px] 2xl:py-[60px]"
               data-wow-delay=".1s"
             >
               {brandsData.map((brand) => (

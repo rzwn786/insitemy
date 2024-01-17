@@ -7,8 +7,8 @@ const featuresData: Feature[] = [
     icon: (
       <Image
       src="/images/product/inark.png"
-      width={250}
-      height={250}
+      width={200}
+      height={200}
       alt="INArk"
     />
     ),
@@ -21,8 +21,8 @@ const featuresData: Feature[] = [
     icon: (
       <Image
       src="/images/product/inreport.png"
-      width={250}
-      height={250}
+      width={200}
+      height={200}
       alt="INReport"
     />
     ),
@@ -35,8 +35,8 @@ const featuresData: Feature[] = [
     icon: (
       <Image
       src="/images/product/incheqs.png"
-      width={250}
-      height={250}
+      width={200}
+      height={200}
       alt="INCHEQS"
     />
     ),
@@ -49,8 +49,8 @@ const featuresData: Feature[] = [
     icon: (
       <Image
       src="/images/product/ingateway.png"
-      width={250}
-      height={250}
+      width={200}
+      height={200}
       alt="INGateway"
     />
     ),

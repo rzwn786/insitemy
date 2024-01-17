@@ -10,21 +10,8 @@ const menuData: Menu[] = [
   {
     id: 2,
     title: "About Us",
+    path: "/about",
     newTab: false,
-    submenu: [
-      {
-        id: 21,
-        title: "About Page",
-        path: "/about",
-        newTab: false,
-      },
-      {
-        id: 22,
-        title: "Contact Page",
-        path: "/contact",
-        newTab: false,
-      },
-    ],
   },
   {
     id: 3,
@@ -59,15 +46,21 @@ const menuData: Menu[] = [
   },
   {
     id: 4,
+    title: "Our Service",
+    path: "/ourservices",
+    newTab: false,
+  },
+  {
+    id: 5,
     title: "Coparate News",
     path: "/blog",
     newTab: false,
   },
   {
-    id: 5,
+    id: 6,
     title: "Support",
-    path: "/contact",
-    newTab: false,
+    path: "http://211.24.67.12:4433/default.aspx",
+    newTab: true,
   },
   {
     id: 7,
