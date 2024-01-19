@@ -19,7 +19,6 @@ export default function Home() {
       <Hero />
       <Features />
       <Video />
-      <Brands />
       <Testimonials />
       <Contact />
     </>
